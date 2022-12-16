@@ -1,0 +1,146 @@
+:root {
+
+    --primary: #FCC8C2;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #F5ECCD;
+    text-align: center;
+}
+
+
+.row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.row img {
+    /* align-self: flex-start; */
+    object-fit: cover;
+
+}
+
+.alignPicture {
+    object-position: 0% 60%;
+
+}
+
+.column {
+    flex-grow: 1;
+}
+
+.column1 {
+    flex-basis: 25%;
+
+}
+
+.column2 {
+    flex-basis: 50%;
+
+}
+
+.column3 {
+    flex-basis: 75%;
+
+}
+
+.column4 {
+    flex-basis: 100%;
+
+}
+
+.column5 {
+    flex-basis: 20%;
+}
+
+.gap {
+    gap: .25rem;
+
+}
+
+.flexDirectionColumn {
+    flex-direction: column;
+
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.SpaceBetween {
+    justify-content: center;
+
+}
+
+.head {
+    justify-content: space-between;
+    padding: 1%;
+    background: #FF87AB;
+}
+
+.question,
+.result {
+    font-size: large;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    /* padding-left: 10%; */
+    background: var(--primary);
+    color: #260986;
+    border-style: solid;
+    border-color: #260986;
+    border-width: 1px;
+}
+
+.textarea {
+    padding: 8px;
+    justify-content: center;
+}
+
+.result {
+    padding-left: 3%;
+}
+
+.response {
+    text-align: center;
+}
+
+.button {
+    width: 15%;
+    font-size: large;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: #260986;
+    color: #F5ECCD;
+}
+
+.strayText {
+    color: #1B075F;
+
+}
+
+.topRow {
+    margin-top: 8%;
+    margin-bottom: 8%;
+
+}
+
+.space {
+    padding-left: 2px;
+    width: 19%;
+}
+
+.xmas {
+    padding-right: 2px;
+    width: 19%;
+}
